@@ -161,31 +161,99 @@ header{
 /* Tour Section */
 
 .tour{
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin: 6rem 8rem;
 }
 
 .tour-title{
     color: #131318;
-    text-align: center;
     font-size: 2.5rem;
     font-weight: 800;
+    padding-bottom: 1rem;
+    text-align: center;
 }
 
-.tour-para, .tour-list{
+.tour-para{
     color: rgba(19, 19, 24, 0.70);
     font-size: 1rem;
     font-weight: 400;
+    padding-bottom: 1rem;
     
+}
+.tour-list{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    padding-left: 1.5rem;
+}
+
+.tour-list li{
+    padding-bottom: 1.5rem;
+}
+
+.btn-primary{
+    margin-top: 2rem;
+    border-radius: 0.5rem;
+    background: #FF5400;
+    border: none;
+    padding: 0.8rem 2rem;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+.tour-img{
+    width: 28rem;
 }
 
 
+/* Gallery Section */
+
+.gallery{
+    margin: 1rem 8rem;
+    text-align: center;
+}
+.gallery-para{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0rem 15rem 2rem 15rem;
+}
+.row1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+.row2{
+    margin: 1rem 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.3rem;
+}
+.row3{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-bottom: 4rem;
+}
 
 
+/* Card Section */
+.card-section{
+    margin: 1rem 8rem;
 
-
-
-
-
+}
+.tour-title
+.card{
+    width: 34rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 2rem;
+}
 
 
 
@@ -198,7 +266,7 @@ header{
         padding: 20px;
         overflow: hidden;
     }
-    .navbar{
+    .navbar, .tour{
         flex-direction: column;
         padding-left: 1.5rem;
         
@@ -233,4 +301,37 @@ header{
     .input-text{
         margin: 1rem 0rem;
     }
+
+    .tour{
+        flex-direction: column;
+        margin: 4rem 1rem 4rem 6rem;
+    }
+    .tour-title{
+        font-size: 1.25rem;
+        font-weight: 800;
+        padding-bottom: 1rem;
+    }
+    
+    .tour-para{
+        color: rgba(19, 19, 24, 0.70);
+        font-size: 0.8rem;
+        font-weight: 400;
+        padding-bottom: 1rem;
+        
+    }
+    .tour-list{
+        color: rgba(19, 19, 24, 0.70);
+        font-size: 0.8rem;
+        font-weight: 400;
+        padding-left: 1.5rem;
+    }
+    
+    .tour-list li{
+        padding-bottom: 1.5rem;
+    }
+    .tour-img{
+        width: 20rem;
+    }
 }
+
+
