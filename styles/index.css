@@ -281,12 +281,53 @@ header{
     margin-top: 1rem;
     display: flex;
     justify-content: center;
+    margin-bottom: 4rem;
 }
 .card-titles{
     padding: 1.5rem 0 1rem 0;
 }
 
 
+
+
+
+
+
+
+
+
+
+/* Footer Section */
+
+footer{
+    height: 31.375rem;
+    background: rgba(19, 19, 24, 0.05);
+}
+.footer-logo-heading{
+    padding-top: 6rem;
+    display: flex;
+    justify-content: center;
+    gap: 0.8rem;
+}
+
+.footer-para{
+    color: #5A5A5D;
+    text-align: center;;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 1rem 20rem;
+}
+#social{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+hr{
+    border: 1px solid rgba(19, 19, 24, 0.10);
+    margin: 0 17rem;
+    margin-bottom: 4rem;
+}
 
 
 
@@ -306,7 +347,6 @@ header{
     }
     .logo-heading{
         gap: 0.3rem;
-        /* margin-left: 3.5rem; */
         margin-left: 3.5rem;
         padding-bottom: 1rem;
     }
@@ -417,6 +457,23 @@ header{
         width: 24.5rem;
     }
 
+    footer{
+        width: 32.49rem;
+    }
+    .footer-logo-heading{
+        gap: 0.3rem;
+        margin-left: 0.5rem;
+        padding-bottom: 1rem;
+    }
+    hr{
+        border: 1px solid rgba(19, 19, 24, 0.10);
+        margin: 0 1rem;
+        margin-bottom: 2rem;
+    }
+    .footer-para {font-size: 0.8rem;
+        font-weight: 400;
+        padding: 0rem 3rem 2rem 3rem;
+    }
 }
 
 
