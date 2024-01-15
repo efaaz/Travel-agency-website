@@ -173,7 +173,6 @@ header{
     font-size: 2.5rem;
     font-weight: 800;
     padding-bottom: 1rem;
-    text-align: center;
 }
 
 .tour-para{
@@ -222,6 +221,7 @@ header{
     font-weight: 400;
     padding: 0rem 15rem 2rem 15rem;
 }
+
 .row1{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -244,17 +244,47 @@ header{
 /* Card Section */
 .card-section{
     margin: 1rem 8rem;
-
 }
-.tour-title
-.card{
-    width: 34rem;
+.card-container{
+    display: flex;
+    gap: 1rem;
+}
+
+.middle-para{
+    text-align: center;
+}
+.card-title{
+    text-align: center;
+}
+.card1{
+    width: 30rem;
     border-radius: 1rem;
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
     padding: 2rem;
 }
-
+.card2{
+    width: 30rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 2rem;
+}
+.card3{
+    width: 30rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 2rem;
+}
+.third-card{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.card-titles{
+    padding: 1.5rem 0 1rem 0;
+}
 
 
 
@@ -332,6 +362,61 @@ header{
     .tour-img{
         width: 20rem;
     }
+
+
+    .gallery{
+        margin: 1rem 1rem;
+        text-align: center;
+    }
+    .gallery-content{
+        margin-left: 5rem;
+    }
+    .gallery-para{
+        font-size: 0.8rem;
+        font-weight: 400;
+        padding: 0rem 0rem 2rem 0rem;
+    }
+    .row{
+        width: 30rem;
+        height: 16rem;
+    }
+    .row-sm{
+        width: 30rem;
+        height: 16rem;
+    }
+    .row1{
+        grid-template-columns: repeat(1,1fr);
+        gap: 1rem;
+        
+    }
+    .row2{
+        margin: 1rem 0;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+    }
+    .row3{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+        margin-bottom: 4rem;
+    }
+
+    .card-section{
+        margin: 1rem 2rem;
+    }
+    .card-container{
+        flex-direction: column;
+    }
+
+    .card-content{
+        margin-left: 7rem;
+    }
+    .third-card{
+        width: 28.5rem;
+    }
+    .card1, .card2, .card3 {
+        width: 24.5rem;
+    }
+
 }
 
 
