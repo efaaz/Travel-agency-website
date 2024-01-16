@@ -126,20 +126,23 @@ header{
     cursor: pointer;
 }
 
-/* label, span {
+/* label {
     position: relative;
   }
 
   span:after {
     content: "";
     position: absolute;
-    left: 41rem;
-    top: 0.1875rem;
+    left: 60rem;
+
+    top: 12rem;
     bottom: 0;
     width: 20px;
     background: url("../Images/Frame\ \(1\).png") center / contain no-repeat;
-  }
-  label:after {
+  } */
+
+
+  /* label:after {
     content: "";
     position: absolute;
     left: 37rem;
@@ -430,6 +433,12 @@ hr{
     .input-text{
         margin: 1rem 0rem;
     }
+    #input-submit{
+        width: 13rem;
+    }
+    .btn-primary{
+        margin-left: 3rem;
+    }
 
     .tour{
         flex-direction: column;
@@ -459,7 +468,7 @@ hr{
         padding-bottom: 1.5rem;
     }
     .tour-img{
-        width: 20rem;
+        width:30rem;
     }
 
 
@@ -476,11 +485,11 @@ hr{
         padding: 0rem 0rem 2rem 0rem;
     }
     .row{
-        width: 30rem;
+        width: 30.5rem;
         height: 16rem;
     }
     .row-sm{
-        width: 30rem;
+        width: 30.5rem;
         height: 16rem;
     }
     .row1{
@@ -533,6 +542,30 @@ hr{
         font-weight: 400;
         padding: 0rem 3rem 2rem 3rem;
     }
+    .newsletter{
+        width: 25rem;
+    }
+    .hr{
+        margin: 1.5rem 1.5rem 1.5rem 0rem
+    }
+    .form-para{
+        font-size: 0.87rem;
+        padding-right: 1.5rem;
+    }
+    .form{
+        flex-direction: column;
+        margin: 2rem 1rem;
+    }
+    .form-img{
+        width: 30rem;
+    }
+    .input-info{
+        width: 22rem;
+    }
+    .btn-subscribe{
+        width: 24rem;
+    }
+    
 }
 
 
