@@ -127,41 +127,6 @@ header{
     cursor: pointer;
 }
 
-/* label {
-    position: relative;
-  }
-
-  span:after {
-    content: "";
-    position: absolute;
-    left: 60rem;
-
-    top: 12rem;
-    bottom: 0;
-    width: 20px;
-    background: url("../Images/Frame\ \(1\).png") center / contain no-repeat;
-  } */
-
-
-  /* label:after {
-    content: "";
-    position: absolute;
-    left: 37rem;
-    top: 0.1875rem;
-    bottom: 0;
-    width: 20px;
-    background: url("../Images/Frame.png") center / contain no-repeat;
-  }
-  label:before {
-    content: "";
-    position: absolute;
-    left: 24rem;
-    top: 0.1875rem;
-    bottom: 0;
-    width: 20px;
-    background: url("../Images/Frame.png") center / contain no-repeat;
-  } */
-
 /* Tour Section */
 
 .tour{
