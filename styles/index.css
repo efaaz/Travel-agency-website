@@ -97,8 +97,9 @@ header{
 .input-bg{
     border-radius: 0.5rem;
     background: rgba(255, 255, 255, 0.30);
+    background-size: cover;
+    background-repeat: no-repeat;
     text-align: center;
-    /* display: flex; */
     padding: 1rem;
     justify-content: center;
     gap: 1.5rem;
@@ -206,6 +207,7 @@ header{
     text-align: center;
     font-size: 1.25rem;
     font-weight: 800;
+    cursor: pointer;
 }
 .tour-img{
     width: 28rem;
@@ -353,6 +355,7 @@ header{
     width: 26.5rem;
     height: 3rem; 
     margin-top: 1.5rem;
+    cursor: pointer;
 }
 
 .form-img{
