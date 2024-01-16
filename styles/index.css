@@ -324,8 +324,34 @@ header{
 }
 
 .form-img{
-
+position: relative;
 }
+
+.cuppon{
+    left: 60rem;
+    bottom: 13rem;
+    position: relative;
+    border-radius: 1rem;
+    background: #FF5400;
+    width: 19rem;
+    height: 6rem;
+    transform: rotate(-19.628deg);
+    padding: 1rem 1rem 0rem 1rem;
+}
+
+.cuppon-text-site{
+    color: #FFF;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.cuppon-discount-text{
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 800;
+    padding: 0rem 0rem 0rem 2rem;
+    }
 
 /* Footer Section */
 
@@ -533,6 +559,22 @@ hr{
     .btn-subscribe{
         width: 24rem;
     }
+    .cuppon{
+        left: 11rem;
+        bottom: 11.5rem;
+        width: 17rem;
+        height: 5rem;
+        padding: 1rem 1rem 0rem 1rem;
+    }
+    
+    .cuppon-text-site{
+        font-size: 0.99088rem;
+    }
+    
+    .cuppon-discount-text{
+        font-size: 1.32113rem;
+        padding: 0rem 0rem 0rem 4rem;
+        }
     
 }
 
