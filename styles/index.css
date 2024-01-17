@@ -34,6 +34,9 @@ header{
     font-size: 2.25rem;;
     font-weight: 800;
     }
+    .bar{
+        display: none;
+    }
     
     .navbar ul {
         display: flex;
@@ -56,7 +59,6 @@ header{
 
 #home{
     color: #FF5400;
-    text-align: center;
     font-size: 1.125rem;
     font-weight: 700;
     }
@@ -93,7 +95,6 @@ header{
     padding: 0 15rem;
     
 }
-
 .input-bg{
     border-radius: 0.5rem;
     background: rgba(255, 255, 255, 0.30);
@@ -105,6 +106,16 @@ header{
     gap: 1.5rem;
     margin: 3rem 10rem;
 }
+
+#man{
+    background-image: none;
+    background-image: url(/Images/Frame.png);
+    background-repeat: no-repeat;
+    background-size: 1rem;
+    background-position-x: 11rem;
+    background-position-y: 1.2rem;
+}
+
 
 .input-text{
     width: 10.875rem;
@@ -118,9 +129,15 @@ header{
     height: 3rem;
     border-radius: 0.5rem;
     background: #FF5400;
-    border: none;
+    background-image: url(../Images/Frame\ \(1\).png) ;
+    background-repeat: no-repeat;
+    background-size: 1.19rem;
+    background-position-x: 2.25rem;
+    background-position-y: 0.9rem;
 
+    border: none;
     color: #FFF;
+    padding-left: 1rem;
     text-align: center;
     font-size: 1rem;
     font-weight: 700;
@@ -399,18 +416,36 @@ hr{
         
     }
     .navbar ul{
-        padding-top: 1rem;
+        /* padding-top: 1rem; */
+        display: none;
+    }
+    .navbar-title{
+        font-size: 1.34644rem;
+    }
+    .navbar-title-red{
+        font-size: 1.34644rem;
+        }
+    .logo{
+        width: 12%;
     }
     .logo-heading{
         gap: 0.3rem;
-        margin-left: 3.5rem;
-        padding-bottom: 1rem;
+        margin-left: 2rem;
+    }
+    .responsive-bar{
+        display: flex;
+        gap: 8rem;
+    }
+    .bar{
+        display: inline;
+        position: relative;
+        left: 3rem;
     }
     .banner{
         margin-left: 1rem;
         width: 60rem;
         height: 40rem;
-        margin: 3rem 5rem 0rem 3.5rem
+        margin: 2rem 5rem 0rem 3.5rem
     }
     .banner-title{
         font-size: 1.3rem;
@@ -429,6 +464,7 @@ hr{
     }
     #input-submit{
         width: 13rem;
+        background-position-x: 3.35rem;
     }
     .btn-primary{
         margin-left: 3rem;
