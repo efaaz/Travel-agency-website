@@ -109,7 +109,7 @@ header{
 
 #man{
     background-image: none;
-    background-image: url(/Images/Frame.png);
+    background-image: url(../Images/Frame.png);
     background-repeat: no-repeat;
     background-size: 1rem;
     background-position-x: 11rem;
